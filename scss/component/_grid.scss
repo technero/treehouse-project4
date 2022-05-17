@@ -48,7 +48,7 @@
 .theme {
     @for $i from 1 through 12 {
         &.col-#{$i} {
-            background-color: $theme-colors #{$i};
+            background-color: nth($theme-colors, $i);
 
             @media (min-wdith: 768px) {
                 flex-basis: $i * 8.33%;
