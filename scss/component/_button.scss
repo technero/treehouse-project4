@@ -8,6 +8,10 @@
     padding: 10px 0;
     text-transform: uppercase;
     border-radius: 5px;
+
+    &:hover {
+        background-color: ($btn-color, 15%);
+    }
 }
 
 .default {
