@@ -1,5 +1,5 @@
 @import "../utilities/variables";
-
+@import "../utilities/mixins";
 
 
 .container {
@@ -7,9 +7,13 @@
 
     @media (min-width: 768px) {
         max-width: 1400px;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
+        @include center;
+    }
+}
+
+.centered {
+    @media (min-width: 768px) {
+        @include center;
     }
 }
 

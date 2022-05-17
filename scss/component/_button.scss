@@ -10,7 +10,6 @@
     border-radius: 5px;
 
     @media (min-width:768px) {
-
         padding: 10px 30px;
 
         +.btn {
@@ -21,24 +20,24 @@
     &:hover {
         background-color: ($btn-color, 15%);
     }
-}
 
-.default {
-    background-color: #51ddfc;
-}
+    &.default {
+        background-color: #51ddfc;
+    }
 
-.error {
-    background-color: #e4757a;
-}
+    &.error {
+        background-color: #e4757a;
+    }
 
-.info {
-    background-color: #927bc1;
-}
+    &.info {
+        background-color: #927bc1;
+    }
 
-.success {
-    background-color: #63cc82;
-}
+    &.success {
+        background-color: #63cc82;
+    }
 
-.warning {
-    background-color: #fd7856;
+    &.warning {
+        background-color: #fd7856;
+    }
 }

@@ -404,23 +404,23 @@ a {
   background-color: #fff, 15%;
 }
 
-.default {
+.btn.default {
   background-color: #51ddfc;
 }
 
-.error {
+.btn.error {
   background-color: #e4757a;
 }
 
-.info {
+.btn.info {
   background-color: #927bc1;
 }
 
-.success {
+.btn.success {
   background-color: #63cc82;
 }
 
-.warning {
+.btn.warning {
   background-color: #fd7856;
 }
 
@@ -454,6 +454,14 @@ a {
 @media (min-width: 768px) {
   .container {
     max-width: 1400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (min-width: 768px) {
+  .centered {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -717,5 +725,12 @@ a {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+@media (min-width: 768px) {
+  .img-logo .logo {
+    margin-left: initial;
+    margin-right: initial;
+  }
 }
 /*# sourceMappingURL=styles.css.map */
