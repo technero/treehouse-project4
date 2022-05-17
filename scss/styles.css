@@ -519,129 +519,129 @@ a {
   background-color: #927bc1;
 }
 
-@media (min-wdith: 768px) {
-  .theme.col-1 {
-    -ms-flex-preferred-size: 8.33%;
-        flex-basis: 8.33%;
-  }
-}
-
 .theme.col-2 {
   background-color: #fd7856;
-}
-
-@media (min-wdith: 768px) {
-  .theme.col-2 {
-    -ms-flex-preferred-size: 16.66%;
-        flex-basis: 16.66%;
-  }
 }
 
 .theme.col-3 {
   background-color: #deb2ee;
 }
 
-@media (min-wdith: 768px) {
-  .theme.col-3 {
-    -ms-flex-preferred-size: 24.99%;
-        flex-basis: 24.99%;
-  }
-}
-
 .theme.col-4 {
   background-color: #7ee6fd;
-}
-
-@media (min-wdith: 768px) {
-  .theme.col-4 {
-    -ms-flex-preferred-size: 33.32%;
-        flex-basis: 33.32%;
-  }
 }
 
 .theme.col-5 {
   background-color: #88d9a0;
 }
 
-@media (min-wdith: 768px) {
-  .theme.col-5 {
-    -ms-flex-preferred-size: 41.65%;
-        flex-basis: 41.65%;
-  }
-}
-
 .theme.col-6 {
   background-color: #4da2bb;
-}
-
-@media (min-wdith: 768px) {
-  .theme.col-6 {
-    -ms-flex-preferred-size: 49.98%;
-        flex-basis: 49.98%;
-  }
 }
 
 .theme.col-7 {
   background-color: #ec9fa3;
 }
 
-@media (min-wdith: 768px) {
-  .theme.col-7 {
-    -ms-flex-preferred-size: 58.31%;
-        flex-basis: 58.31%;
-  }
-}
-
 .theme.col-8 {
   background-color: #fd9f85;
-}
-
-@media (min-wdith: 768px) {
-  .theme.col-8 {
-    -ms-flex-preferred-size: 66.64%;
-        flex-basis: 66.64%;
-  }
 }
 
 .theme.col-9 {
   background-color: #e4757a;
 }
 
-@media (min-wdith: 768px) {
-  .theme.col-9 {
-    -ms-flex-preferred-size: 74.97%;
-        flex-basis: 74.97%;
-  }
-}
-
 .theme.col-10 {
   background-color: #63cc82;
-}
-
-@media (min-wdith: 768px) {
-  .theme.col-10 {
-    -ms-flex-preferred-size: 83.3%;
-        flex-basis: 83.3%;
-  }
 }
 
 .theme.col-11 {
   background-color: #51ddfc;
 }
 
-@media (min-wdith: 768px) {
-  .theme.col-11 {
+.theme.col-12 {
+  background-color: #80e8d1;
+}
+
+@media (min-width: 768px) {
+  .col-1 {
+    -ms-flex-preferred-size: 8.33%;
+        flex-basis: 8.33%;
+  }
+}
+
+@media (min-width: 768px) {
+  .col-2 {
+    -ms-flex-preferred-size: 16.66%;
+        flex-basis: 16.66%;
+  }
+}
+
+@media (min-width: 768px) {
+  .col-3 {
+    -ms-flex-preferred-size: 24.99%;
+        flex-basis: 24.99%;
+  }
+}
+
+@media (min-width: 768px) {
+  .col-4 {
+    -ms-flex-preferred-size: 33.32%;
+        flex-basis: 33.32%;
+  }
+}
+
+@media (min-width: 768px) {
+  .col-5 {
+    -ms-flex-preferred-size: 41.65%;
+        flex-basis: 41.65%;
+  }
+}
+
+@media (min-width: 768px) {
+  .col-6 {
+    -ms-flex-preferred-size: 49.98%;
+        flex-basis: 49.98%;
+  }
+}
+
+@media (min-width: 768px) {
+  .col-7 {
+    -ms-flex-preferred-size: 58.31%;
+        flex-basis: 58.31%;
+  }
+}
+
+@media (min-width: 768px) {
+  .col-8 {
+    -ms-flex-preferred-size: 66.64%;
+        flex-basis: 66.64%;
+  }
+}
+
+@media (min-width: 768px) {
+  .col-9 {
+    -ms-flex-preferred-size: 74.97%;
+        flex-basis: 74.97%;
+  }
+}
+
+@media (min-width: 768px) {
+  .col-10 {
+    -ms-flex-preferred-size: 83.3%;
+        flex-basis: 83.3%;
+  }
+}
+
+@media (min-width: 768px) {
+  .col-11 {
     -ms-flex-preferred-size: 91.63%;
         flex-basis: 91.63%;
   }
 }
 
-.theme.col-12 {
-  background-color: #80e8d1;
-}
-
-@media (min-wdith: 768px) {
-  .theme.col-12 {
+@media (min-width: 768px) {
+  .col-12 {
     -ms-flex-preferred-size: 99.96%;
         flex-basis: 99.96%;
   }

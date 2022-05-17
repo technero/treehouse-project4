@@ -22,22 +22,22 @@
     }
 
     &.default {
-        background-color: #51ddfc;
+        background-color: $link-color;
     }
 
     &.error {
-        background-color: #e4757a;
+        background-color: $error-btn-color;
     }
 
     &.info {
-        background-color: #927bc1;
+        background-color: $info-btn-color;
     }
 
     &.success {
-        background-color: #63cc82;
+        background-color: $success-btn-color;
     }
 
     &.warning {
-        background-color: #fd7856;
+        background-color: $warning-btn-color;
     }
 }
