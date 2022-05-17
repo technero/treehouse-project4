@@ -9,7 +9,7 @@
     text-transform: uppercase;
     border-radius: 5px;
 
-    @media (min-width:768px) {
+    @media (min-width:$media-minimum-width) {
         padding: 10px 30px;
 
         +.btn {
