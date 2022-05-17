@@ -9,6 +9,15 @@
     text-transform: uppercase;
     border-radius: 5px;
 
+    @media (min-width:768px) {
+
+        padding: 10px 30px;
+
+        +.btn {
+            margin-left: 10px;
+        }
+    }
+
     &:hover {
         background-color: ($btn-color, 15%);
     }
