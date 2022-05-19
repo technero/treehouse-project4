@@ -23,3 +23,10 @@ $theme-colors: (
 $font-weight-light: 300;
 $font-weight-bold: 700;
 $media-minimum-width: 768px;
+$btn-states: (
+    'default': #51ddfc,
+    'error': #e4757a,
+    'info': #927bc1,
+    'success': #63cc82,
+    'warning': #fd7856
+);

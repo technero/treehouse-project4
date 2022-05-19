@@ -21,23 +21,14 @@
         background-color: $primary-color;
     }
 
-    &.default {
-        background-color: $link-color;
-    }
+    @each $selector,
+    $color in $btn-states {
+        &.#{$selector} {
+            background-color: $color;
 
-    &.error {
-        background-color: $error-btn-color;
-    }
-
-    &.info {
-        background-color: $info-btn-color;
-    }
-
-    &.success {
-        background-color: $success-btn-color;
-    }
-
-    &.warning {
-        background-color: $warning-btn-color;
+            &:hover {
+                background-color: lighten($color, 15%);
+            }
+        }
     }
 }
